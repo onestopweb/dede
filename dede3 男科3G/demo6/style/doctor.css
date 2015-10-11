@@ -1,0 +1,14 @@
+/* CSS Document */
+
+/*内容*/
+.cTilte{background:url(../images/mapBg.gif) repeat-x scroll; height:41px; line-height:41px; text-align:center; width:320px; font-size:14px; color:#fff; font-weight:normal;}
+.bar{ width:306px; height:127px; background:url(../images/bg.gif); margin:0 auto; border-top:1px solid #f0f0f0; border-bottom:1px solid #b0b2b5;}
+.bar dt{ width:113px; height:127px;}
+.bar dt img{ border:1px solid #dededf; margin:9px 0 0 8px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); -moz-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1);}
+.bar dd{ width:193px; font-size:14px; line-height:22px;}
+.bar .dd1{ height:48px; margin-top:10px;}
+.bar .dd1 img{ margin-right:6px;}
+.bar .dd1 p{ color:#221e1f;}
+.bar .dd1 p i{ color:#0071a2;}
+.bar .dd2{ color:#939598;}
+.bar .dd2 a{ color:#ba0505;}

@@ -1,0 +1,72 @@
+/* CSS Document */
+
+/*公共样式*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary{ margin:0; padding:0;}
+body{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; color:#999; font-size:12px; background-color:#f8f8f8;}
+a{ color:#333; text-decoration:none;}
+a:hover{ text-decoration:none;}
+a img{ border:none;}
+.f_l{ float:left;}
+.f_r{ float:right;}
+i{ font-style:normal;}
+em{ font-style:normal;}
+ul li{ list-style-type:none;}
+.c{ clear:both;} 
+textarea{ resize:none;}
+input, select, textarea{ font-family:\5FAE\8F6F\96C5\9ED1,'Arial'; background:#fff; margin:0; padding:0; outline:none;}
+.b{ font-weight:bold;}
+.h3{ height:3px;}
+.h5{ height:5px;}
+.h8{ height:8px;}
+.h10{ height:10px;}
+.h15{ height:15px;}
+.h20{ height:20px;}
+.h25{ height:25px;}
+
+/*头部样式*/
+.logo{ width:320px; height:57px; margin:0 auto;}
+.phone{ width:320px; height:50px; margin:0 auto;}
+.nav{ table-layout:fixed; empty-cells:show; border-collapse:collapse; text-align:center; width:320px; margin:0 auto; border-top:1px solid #fff4e2; font-size:14px;}
+.nav tr{}
+.nav tr td{border-right:1px solid #fff4e2; border-bottom:1px solid #fff4e2; background:#068dc8; width:10%; height:26px;}
+.nav tr td.sg {width:18%;}
+.nav tr td.last{border-right: none; width:13%;}
+.nav tr td a{ color:#fff;}
+.nav tr td .colRed{ color:#b00100;}
+.nav tr td .colYellow{ color:#fcf200;}
+.nav tr td a:hover{ text-decoration:underline; color:#f00;}
+.banner{ width:320px;height:174px; overflow:hidden; margin:5px auto 0 auto;}
+.banner img{ float:left;}
+
+/*内容区*/
+.cont{ width:320px; margin:0 auto; padding-top:10px; background:#f1f1f1;}
+.title{ width:100%; height:21px; background:url(../images/tabbg.jpg) repeat-x;border-bottom:1px solid #dedede; border-top:1px solid #dedede;line-height:23px;}
+.title h3{ width:100px;height:21px;background:url(../images/hover.jpg) repeat-x bottom; color:#ba0505; font-weight:bold;margin-left:6px; padding-left:7px;}
+.title a{ color:#ba0505; padding-right:15px;}
+.title a:hover{text-decoration:underline;}
+.column{ background:#068dc8; height:30px; line-height:30px; text-align:center; color:#fff; font-size:14px; font-weight:normal;}
+.info{ height:30px; line-height:30px; background:#eee; border-top:3px solid #068dc8; color:#007fb6; font-weight:normal; font-size:15px; text-align:center; }
+.tel{ overflow:hidden; width:320px;}
+.bor1px{ border-top:1px dashed #c0c0c0; width:300px; margin:0 auto;}
+
+/*底部样式*/
+.al{ width:320px;}
+.al p{ height:40px; border-bottom:1px solid #dedede; line-height:40px; font-size:14px; font-weight:normal; padding:0 20px 0 9px;}
+.al p a{ color:#333;}
+.al p a:hover{ color:#ce0000;}
+.al p a i{ padding-right:4px;}
+.foot { background:#068dc8; color:#fff; font-size:12px; height:210px; line-height:20px; margin-top:10px; padding-top:5px; text-indent:1em;}
+.foot p { margin:8px auto; text-align:center;}
+.footer{ margin:4px auto; width:300px;}
+.footer li { float:left; height:20px; text-align:center; width:100px;}
+.footer li a { color:#fff;}
+
+/*分页*/
+.pagination {width:300px; margin:10px auto 0 auto; overflow:hidden; clear:both; } 
+.pagination ul { width:100%; text-align:center; overflow:hidden; } 
+.pagination ul li { float:left; margin:0 10px 0 0; display:inline; overflow:hidden; } 
+.pagination ul li.thisclass { padding:7px 10px; font-weight:bold; background:#068dc8; color:#FFF } 
+.pagination ul li a { float:left; background:#94b6c6; padding:7px 10px; display:inline; color:#fff; text-decoration:none; } 
+.pagination ul li a:hover { color:#fff; background:#068dc8; text-decoration:none; }
+
+

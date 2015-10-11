@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>{dede:field name='typename'/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='typename'/} - {dede:global.cfg_webname/}">
+<meta name="description" content="{dede:global.cfg_description/}">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/basic.css" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/article.css" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="cont">
+	<p class="position">当前：{dede:field name='position'/} </p>
+	<h2 class="column">{dede:field name="title"/}</h2>
+    <div class="h10"></div>
+    <div class="article">
+		<p class="art"><a href="tel:08558253310" target="_blank" rel="nofollow">电话咨询：0855-8253310</a><span> 文章已阅：<script src="{dede:field name='phpurl'/}/count.php?view=yes&aid={dede:field name='id'/}&mid={dede:field name='mid'/}" type='text/javascript' language="javascript"></script>次</span></p>
+        <div><a href="/zixun/" target="_blank" rel="nofollow"><img src="{dede:global.cfg_templets_skin/}/images/dis.jpg"></a></div>
+		<div class="brand">
+            <div class="brandAd f_l">公告</div>
+            <ul class="f_l">
+                <li><span><strong>预约：</strong></span>网络在线预约可<em>免专家挂号费</em></li>
+                <li><span><strong>优先：</strong></span>享受<em>优先就诊</em>和<em>绿色通道</em>服务</li>
+            </ul>
+        </div>
+        {dede:field name='body'/}
+    </div>
+    <div class="h10"></div>
+    {dede:include filename="footer.htm"/}
+</div>
+{dede:include filename="swt.htm"/}
+</body>
+</html>

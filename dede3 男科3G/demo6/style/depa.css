@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.bar{ width:304px; height:101px; margin:0 auto;}
+.bar dt{ width:101px; height:101px; background:#068dc8;}
+.bar dt img{ margin:5px 0 0 5px;}
+.bar dd{ width:202px; height:101px; background:url(../images/bg.gif); font-size:14px;}
+.bar dd p{ height:29px; line-height:29px; border-bottom:1px solid #b3b5b7;}
+.bar dd p a{ color:#007fb6; padding-left:7px;}
+.bar dd p a em{ color:#af7509; padding-right:5px;}
+.bar dd span{ line-height:20px; padding:7px 2px 0 2px; display:block; border-top:1px solid #f0f0f0; color:#221e1f;}
+.bar dd span a{ color:#ce0000;}
+
+.type{padding:0px 0px 0px 7px; margin-top:8px;}
+.type ul li{float:left; padding:0px 5px 6px 0px;}
+.type ul li a{display:block; background:url(../images/pg_a.gif) no-repeat scroll; text-align:center; width:72px; height:27px; line-height:27px;/*圆角*/border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -webkit-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); -moz-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); color:#221e1f;}
+
+

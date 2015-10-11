@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css" />
+</head>
+<body>
+{dede:include filename='header.htm'/}
+<div class="auto_t">
+    <div class="t1">{dede:field name='position'/} > <a>{dede:field.title/}</a> ></div>
+</div>
+<ul class="mainlist">
+	{dede:arclist orderby='pubdate' typeid='4,5,7,8,9,10,11,12' keyword='顺产' limit='0,20'}
+    <li><a href="[field:arcurl/]"><img src="/templets/v1/images/listimg.jpg" alt="查看" />[field:title function="cn_substr(@me,50)"/]</a></li>
+    {/dede:arclist}
+</ul>
+{dede:include filename='footer.htm'/}
+</body>
+</html>

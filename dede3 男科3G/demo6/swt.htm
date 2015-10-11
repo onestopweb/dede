@@ -1,0 +1,22 @@
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/ScrollPic.js"></script> 
+<script type="text/javascript">
+$(function(){
+   if (document.getElementById("banner")){
+	   var scrollPic_01 = new ScrollPic();
+	   scrollPic_01.scrollContId = "banner";   //内容容器ID
+	   scrollPic_01.arrLeftId = "p1_r";   //左箭头ID
+	   scrollPic_01.arrRightId = "p1_l";   //右箭头ID
+	   scrollPic_01.frameWidth = 320;   //显示框宽度
+	   scrollPic_01.pageWidth = 320;   //翻页宽度
+	   scrollPic_01.speed = 10;   //移动速度（单位毫秒，越小越快）
+	   scrollPic_01.space = 20;   //每次移动像素（单位px，越大越快）
+	   scrollPic_01.autoPlay = true;   //是否自动播放（否）
+	   scrollPic_01.autoPlayTime = 30;   //自动播放间隔时间（秒）
+	   scrollPic_01.initialize();   //初始化
+	   setInterval(function(){
+		   scrollPic_01.rightMouseDown();scrollPic_01.leftEnd();
+		   },3000);
+   }
+});
+</script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/swt.js"></script>

@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>{dede:global.cfg_webname/}{dede:field name='typename'/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:global.cfg_keywords/}">
+<meta name="description" content="{dede:global.cfg_description/}">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/basic.css" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/brief.css" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="cont">
+	<h2 class="cTilte">医院简介</h2>
+    <dl class="cHos">
+    	<dt class="f_l"><img src="{dede:global.cfg_templets_skin/}/images/hos.jpg"></dt>
+        <dd class="f_r">
+        	<span><i>黔东南恒生男科医院</i><br>地址：凯里市韶山北路27号小十字隧道口</span>
+            <a href="tel:08558253310" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/tel2.gif" width="146" height="31"></a>
+        </dd>
+    </dl>
+    <div class="cBrief">
+    	作为凯里最早建立以男科诊疗为主的泌尿外科医院，凯里恒生泌尿外科医院的出现，不仅填补了凯里没有专科男科医院的空缺，更将凯里的男科诊疗引入了一个新的时代--男...<a href="/yyjj/145.html">[详细]</a>
+    </div>
+    <h2 class="cTilte"><a href="/zjtd/">凯里男科名医堂</a></h2>
+    <ul class="cDoctor">
+    	{dede:arclist typeid='64' row='8'}
+    	<li class="f_l"><a href="[field:arcurl/]"><img src="[field:litpic/]"><p>[field:title/]</p></a></li>
+        {/dede:arclist} 
+    </ul>
+    <div class="c"></div>
+    <h2 class="cTilte">医院荣誉</h2>
+    <div class="cCard">
+    	<div class="f_l">
+        	<a href="/zixun/" target="_blank" rel="nofollow"><img src="{dede:global.cfg_templets_skin/}/images/card1.jpg" class="card1"></a>
+            <p class="card1p"><i>★</i>凯里医保定点男科医院</p>	
+            <p class="card1p"><i>★</i>全国十佳重点男科医院</p>	
+        </div>
+        <div class="f_r">
+        	<a href="/zixun/" target="_blank" rel="nofollow"><img src="{dede:global.cfg_templets_skin/}/images/card2.jpg" class="card2"></a>
+            <p><i>★</i>凯里最具特色泌尿外科医院</p>	
+            <p><i>★</i>全国十佳泌尿专科示范医院</p>	
+        </div>
+    </div>
+    <h2 class="cTilte">权威技术</h2>
+    <div class="cTech">
+    	{dede:arclist typeid='62' row='8'  titlelen='22'}
+    	<p><a href="[field:arcurl/]"><i>·</i>[field:title/]<em>[详细]</em></a></p>
+        {/dede:arclist}
+    </div>
+    <div class="h15"></div>
+{dede:include filename="footer.htm"/}
+</div>
+{dede:include filename="swt.htm"/}
+</body>
+</html>

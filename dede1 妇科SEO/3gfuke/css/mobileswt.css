@@ -1,0 +1,39 @@
+/* CSS Document */
+@charset "utf-8";
+body{padding:40px 0 0 0!important; margin:0; padding:0; position:relative;}
+input,img,span{vertical-align:middle}
+.swt{ left:50%;margin-left:-128px;padding: 0 0 12px 0;position:fixed;text-align:center;top:50%;width:256px;z-index:999}
+.swt img{-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px;box-shadow:1px 1px 3px 0 #666;}
+.close{ width:30px; height:25px; position:absolute; z-index:10000; margin:4px 0 0 210px; float:right;font:normal 10px/10px Arial; }
+.sideswt{position:fixed;right:0; bottom:150px;background:#0572BD;line-height:16px;width:20px; padding:10px 5px;text-align:center;}
+.sideswt a{color:white;}
+
+.sidetel{position:fixed;right:0; bottom:250px;background:#0572BD;line-height:16px;width:20px; padding:10px 5px;text-align:center;}
+.sidetel a{color:white;}
+
+.swtbotbg{position:fixed;bottom:0px;background:#0572BD;line-height:30px;width:100%;text-align:left;}
+.swtbot{ width:320px; margin:0 auto; height:30px; background:url(../images/swtbot.png) no-repeat}
+.swtbot a{ color:fff; float:left; width:159px; font-size:16px; color:#fff; text-align:center}
+
+.bottom-fixed{background:url("../images/pf_bg.png") repeat scroll 0 0 transparent;bottom:0;height:44px;position:fixed;text-align:center;width:100%;z-index:10000;padding-top:3px;}
+.bottom-fixed a.tel{background:url("../images/c1_n.png") no-repeat scroll center top transparent;float:left;height:100%;width:33%;}
+.bottom-fixed a.map{background:url("../images/c4_n.png") no-repeat scroll center top transparent;float:left;height:100%;width:33%;}
+.bottom-fixed a.sms{background:url("../images/c2_n.png") no-repeat scroll center top transparent;float:left;height:100%;width:33%;}
+.bottom-fixed a.chat{background:url("../images/c3_n.png") no-repeat scroll center top transparent;float:left;height:100%;width:33%; position:relative;}
+#comp_tel_span{color:#FFFFFF;float:right;font-size:13px;padding:24px 0 0;width:100%;}
+#comp_sms_span{color:#FFFFFF;float:right;font-size:13px;padding:24px 0 0;width:100%;}
+#comp_chat_span{color:#FFFFFF;float:right;font-size:13px;padding:24px 0 0;width:100%;}
+#comp_map_span{color:#FFFFFF;float:right;font-size:13px;padding:24px 0 0;width:100%;}
+
+
+.OnlineBtn {width:100%;height:42px; background:url(../images/gh_bg.gif) repeat-x; color:#fff; text-align:center;cursor:pointer;position: fixed; left:0; top:0px; overflow:hidden;z-index:9999;}
+.OnlineBtn a{ height:34px; float:left; width:40%; margin:0 5%; padding:8px 0 0; text-align:center; z-index:9999; color:#fff;position:relative;}
+.OnlineBtn img{ vertical-align:middle; margin-right:5px;}
+.fdblock{height:42px;}
+.zxtips{position:absolute;top:0;right:5px;}
+.fubiao{ background: url(../images/icos.gif) no-repeat right 5px}
+
+.bottomfloat{bottom:0;left:0;position:fixed;text-align:center;z-index:10000;z-index: 10000;width:100%; height:52px;background:url(../images/bgdb.jpg)}
+.bottomfloat img{ display:block; margin:0 auto}
+
+.wys{ width:60px; height:60px;position:fixed;z-index:10000; bottom:60px; right:20px}

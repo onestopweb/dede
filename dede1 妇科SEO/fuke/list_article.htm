@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='keywords'/}" />
+<meta name="description" content="{dede:field name='description' function='html2text(@me)'/}" />
+<meta name="applicable-device" content="pc">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/basic.css" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/list.css" type="text/css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/validate.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="t">
+	<div class="tSide f_r">
+    	<div class="ts1">
+        	<div class="tsTitle"><h3>医院介绍</h3></div>
+            <div class="ts1Info">
+                {dede:arclist row=1 idlist='3'  infolen='250'}
+        		<p>[field:info/]……<a href='/yyjj/3.html' target="_blank">[详细内容]</a></p>
+            	{/dede:arclist}
+                <a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/online.png" width="247" height="166"/></a>
+                <a href="/lyxl/" class="aPosition" target="_blank"></a>
+            </div>
+        </div>
+        <div class="ts2">
+        	<div class="tsTitle"><h3>特色诊疗</h3></div>
+            <div class="ts2Img">
+            	<a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/tsImg1.jpg" width="246" height="75" /></a>
+                <a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/tsImg2.jpg" width="246" height="75" /></a>
+                <a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/tsImg3.jpg" width="246" height="75" /></a>
+                <a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/tsImg4.jpg" width="246" height="75" /></a>
+                <a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/tsImg5.jpg" width="246" height="75" /></a>
+            </div>
+        </div>
+        <div class="ts3">
+        	<div class="tsTitle"><h3>最新文章</h3></div>
+            <div class="ts3List">
+            	<ul>
+                	{dede:arclist orderby='pubdate' limit='0,1'}<li><span class="f_l">1</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='1,1'}<li><span class="f_l">2</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='2,1'}<li><span class="f_l">3</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='3,1'}<li><span class="f_l">4</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}                    {dede:arclist orderby='pubdate' limit='4,1'}<li><i class="f_l">5</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='5,1'}<li><i class="f_l">6</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='6,1'}<li><i class="f_l">7</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='7,1'}<li><i class="f_l">8</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='8,1'}<li><i class="f_l">9</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    {dede:arclist orderby='pubdate' limit='9,1'}<li><i class="f_l">10</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                </ul>
+            </div>
+        </div>
+    </div>
+	<div class="tList">
+    	<div class="tlColumn">
+        	<a href="{dede:global.cfg_cmsurl/}/" class="home  f_l"></a>
+        	<p class="f_l">您当前的位置是：{dede:field name='position'/} </p>
+        </div>
+    	<div class="tlGrap">
+        	<div class="gl f_l">
+            	<a href="/zixun/" rel="nofollow" target="_blank" ><img src="{dede:global.cfg_templets_skin/}/images/grap.jpg" width="199" height="221" /></a>
+            </div>
+            <div class="gr f_l">
+            	<div class="grTitle"><h4>重点关注</h4></div>
+                <div class="grList">
+                	<ul class="f_l">
+                    	{dede:arclist orderby='hot' limit='0,1'}<li><span class="f_l">1</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='2,1'}<li><span class="f_l">3</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+              			{dede:arclist orderby='hot' limit='4,1'}<li><i class="f_l">5</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='6,1'}<li><i class="f_l">7</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='8,1'}<li><i class="f_l">9</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='10,1'}<li><i class="f_l">11</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    </ul>
+                    <ul class="f_l">
+                    	{dede:arclist orderby='hot' limit='1,1'}<li><span class="f_l">2</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='3,1'}<li><span class="f_l">4</span><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='5,1'}<li><i class="f_l">6</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='7,1'}<li><i class="f_l">8</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='9,1'}<li><i class="f_l">10</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                        {dede:arclist orderby='hot' limit='11,1'}<li><i class="f_l">12</i><a href="[field:arcurl /]" target="_blank" class="f_l">[field:title/]</a></li>{/dede:arclist}
+                    </ul>
+                </div>
+            </div>
+            <p class="tlPosition">如果您还有其它问题，请咨询 <a href="/zixun/" rel="nofollow" target="_blank" >在线医生</a></p>
+        </div>
+        <div class="tlList">
+        	{dede:list pagesize='14'}
+        	<dl>
+            	<dt><em class="f_r">[field:pubdate function='strftime("%Y-%m-%d",@me)'/]</em><a href="[field:arcurl/]" target="_blank" >[field:title/]</a></dt>
+            	<dd>[field:description function="cn_substr(@me,268)"/]…<a href="[field:arcurl/]" >[详细]</a></dd>
+            </dl>
+            {/dede:list}
+           	<ul class="page">
+           		{dede:pagelist listitem="info,index,end,pre,next,pageno,option" listsize="5"/}
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="c"></div>
+{dede:include filename="footer.htm"/}
+</body>
+</html>

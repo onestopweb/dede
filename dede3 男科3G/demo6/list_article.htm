@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="wap-font-scale" content="no">
+<meta name="applicable-device" content="mobile">
+<meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>{dede:field name='typename'/} - {dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field name='typename'/} - {dede:global.cfg_webname/}">
+<meta name="description" content="{dede:global.cfg_description/}">
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/basic.css" type="text/css" />
+<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/style/list.css" type="text/css" />
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.10.1.min.js"></script>
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="cont">
+	<h2 class="column">关于{dede:field name='typename'/}</h2>
+    {dede:list pagesize='10' titlelen='60'}
+    <dl class="bar">
+    	<dt><a href="[field:arcurl/]"><em>· </em>[field:title/]</a></dt>
+        <dd>[field:description function="cn_substr(@me,100)"/]...<a href="[field:arcurl/]">[详细]</a></dd>
+    </dl>
+    {/dede:list}	
+    <div class="pagination">
+		<ul>{dede:pagelist listitem="pre,next,pageno" listsize="1"/}</ul>
+    </div>
+    <div class="h10 c"></div>
+    {dede:include filename="footer.htm"/}
+</div>
+{dede:include filename="swt.htm"/}
+</body>
+</html>

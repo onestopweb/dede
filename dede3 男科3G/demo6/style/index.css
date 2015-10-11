@@ -1,0 +1,33 @@
+/* CSS Document */
+
+/*内容*/
+.item{ width:302px; margin:0 auto;}
+.item ul{ padding-top:6px;}
+.item ul li{ width:100px; height:31px; line-height:31px; background:url(../images/itemBg.jpg) no-repeat; float:left; margin-right:1px; margin-bottom:2px; text-align:center; font-size:15px;}
+.item ul li:hover{ width:100px; height:31px; line-height:31px; background:url(../images/itemBg2.jpg) no-repeat;}
+.item ul .mgnR0{ margin-right:0;}
+
+.need{ width:320px; height:163px; background:#fff;}
+.need img{ margin:0 auto; padding-top:7px; display:block;}
+
+.doctor{ width:320px; height:170px;}
+.doctor dl{ width:320px; height:130px;}
+.doctor dl dd{ width:130px;}
+.doctor dl dd img{ border:1px solid #cdcdcd; display:block; margin:12px 0 0 18px;}
+.doctor dl dt{ width:190px;}
+.doctor dl dt h4{ padding-top:10px; line-height:25px;}
+.doctor dl dt h4 a{ color:#ba0505;}
+.doctor dl dt p{ color:#444; width:174px; line-height:25px;}
+.doctor dl dt p a{ color:#333;}
+.doctor > a{ margin:0 3px 0 11px;}
+
+.ban{ width:320px; height:80px;}
+.ban2{ width:320px; height:76px; margin-top:2px;}
+
+.news{ width:300px; margin:0 auto; font-size:14px; overflow:hidden; margin-top:4%; border-bottom:1px solid #C3C3C3; padding-bottom:4%;}
+.news dl dt{ float:right; width:30%;}
+.news dl dt img{ width:100%;}
+.news dl dd{ float:left; font-size:1.1em; width:70%; line-height:1.8em;}
+.news dl dd p{ color:#666666;font-size:0.9em; padding-left:20px;}
+.news dl dd .pc{ color:#007fb6;}
+.noBor{ border:none;}

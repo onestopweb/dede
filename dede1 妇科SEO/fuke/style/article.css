@@ -1,0 +1,56 @@
+/* CSS Document */
+
+/*全区*/
+.t{ width:980px; margin:8px auto 0 auto;}
+
+/*侧栏区*/
+.tSide{ width:267px;}
+.tsTitle{ background:#f2f2f2 url(../images/ico.gif) no-repeat 10px 8px; border-top:1px solid #fff; border-bottom:1px solid #fff; height:30px;}
+.tsTitle h3{ padding-left:32px; color:#f09; font-size:14px; font-weight:bold; line-height:28px; }
+
+/*侧栏一区*/
+.ts1{ width:265px; height:330px; border:1px solid #ccc;}
+.ts1Info{ width:265px; height:298px; border-top:1px solid #ccc; position:relative;}
+.ts1Info p{text-indent:2em; color:#111; line-height:21px; padding:14px;}
+.ts1Info p a{ color:#c00;}
+.ts1Info p a:hover{ color:#c00; text-decoration:underline;}
+.ts1Info img{ position:absolute; top:128px; left:10px;}
+.ts1 .aPosition{ position:absolute; width:70px; height:70px; display:block; top:214px; left:20px; z-index:9999;}
+
+/*侧栏二区*/
+.ts2{ width:265px; height:475px; margin-top:8px; border:1px solid #ccc;}
+.ts2Img{ width:265px; border-top:1px solid #ccc;}
+.ts2Img img{ border:1px solid #ccc; margin:9px auto 1px auto; display:block;}
+
+/*栅栏三区*/
+.ts3{ width:265px; margin-top:8px; border:1px solid #ccc;}
+.ts3List{ width:265px; border-top:1px solid #ccc;}
+.ts3List ul{ padding:15px 0 5px 9px;}
+.ts3List ul li{ height:25px; width:250px;}
+.ts3List ul li a{ padding-left:8px;}
+.ts3List ul li span, .ts3List ul li i{ display:block; width:14px; height:20px; padding-top:2px; font-family:'Arial'; font-size:11px; color:#fff; text-align:center;}
+.ts3List ul li span{ background:url(../images/ico1.gif) no-repeat 1px 2px;}
+.ts3List ul li i{ background:url(../images/ico2.gif) no-repeat 1px 2px;}
+
+/*内容区*/
+.tCont{ width:703px; background:url(../images/listBg.jpg) repeat-x; border:1px solid #ccc;}
+.tcColumn{ height:35px;}
+.tcColumn .home{ background:url(../images/home.gif) no-repeat 15px 8px; width:45px; height:27px; display:block;}
+.tcColumn p{ line-height:35px;}
+.tcTitle{ width:644px; height:120px; margin:0 auto; border-bottom:1px solid #ccc;}
+.tcTitle h3{ text-align:center; padding-top:36px; font-size:23px; color:#333; font-weight:500;}
+.tcTitle p{ height:22px; line-height:22px; padding-left:174px; padding-top:16px;}
+.tcTitle p i{ color:#666;}
+.tcTitle p i em{ color:#00f; font-size:10px;}
+.tcTitle p .yuyue{ background:url(../images/yuyue.png) no-repeat; width:64px; height:22px; display:block; margin-left:12px;}
+.tcTitle p .zixun{ background:url(../images/zixun.png) no-repeat; width:64px; height:22px; display:block; margin-left:8px;}
+.tcCont{ width:644px; margin:0 auto; color:#333; line-height:24px; font-size:14px; padding-top:10px; font-size:14px;}
+.tcCont p{ padding:4px 0;}
+.tcCont img{ max-width:644px;}
+.tcBut{ height:135px; width:450px; margin:0 auto; padding-top:14px;}
+.tcBut img{ padding-right:20px;}
+.tcPoint{ border:1px solid #ccc; width:600px; height:110px; margin:0 auto 20px auto; background:url(../images/mm.jpg) no-repeat left 1px;}
+.tcPoint p{ width:470px; font-size:14px; color:#555; padding:20px 0 0 110px; line-height:24px;}
+.tcPoint p span{ color:#f09; font-weight:bold;}
+.tcPoint p a{ color:#f09; font-weight:bold;}
+.tcPoint p a:hover{ color:#f09; text-decoration:underline;}

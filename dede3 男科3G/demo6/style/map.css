@@ -1,0 +1,19 @@
+/* CSS Document */
+
+/*地图*/
+.cTilte{background:url(../images/mapBg.gif) repeat-x scroll; height:41px; line-height:41px; text-align:center; width:320px; font-size:14px; color:#fff; font-weight:normal;}
+.cAdd{ color:#939598; font-size:14px; padding-left:14px;}
+.cAdd i{ color:#0071a2;}
+.cMap{ width:304px; margin:0 auto;}
+.cMap img{ padding:4px; background:#006192;}
+.cTel{ text-align:center;}
+.cTel img{ border:1px #f0f0dc solid; -webkit-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); -moz-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1);}
+.bus{ width:304px; height:62px; margin:0 auto;}
+.bus dt{ background:url(../images/busBg.gif) no-repeat; width:102px; height:62px;}
+.bus dt img{ padding:6px 0 0 6px;}
+.bus dt span{ color:#fff; font-size:14px; padding:8px 0 0 8px;}
+.bus dd{ width:200px; height:62px; background:url(../images/bg.gif); margin-left:2px;}
+.bus dd p{ padding:4px 8px 0 10px; font-size:14px; line-height:18px; color:#221e1f;}
+.bus dd p span{ display:block; color:#0071a2;}
+.bus dd p span i{ color:#af7509;}
+.line{border:2px #e6e7e8 solid; width:290px; margin:2px auto 0 auto; padding:5px 4px 15px 4px;/*圆角*/border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;/*圆角*/ /*外发光*/-webkit-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); -moz-box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1); box-shadow:0px 0px 6px rgba(24,58,102,0.2), 0px 0px 0px 1px rgba(190,202,192,0.1);/*外发光*/ font-size:14px; color:#939598;}

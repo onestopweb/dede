@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+	<title>{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css" />
+</head>
+<body>
+{dede:include filename='inc_header.htm'/}
+<div class="jb_t">
+    <dl class="jb_1">
+        <dt><a href="/fukeyanzheng/" target="_blank">妇科专区</a></dt>
+        <dd><a href="/zixun/?f=doctor" rel="nofollow">在线咨询</a></dd>
+    </dl>
+    <ul>
+        <li><a href="/fujian/"><img src="{dede:global.cfg_templets_skin/}/images/banner1.jpg" alt="妇检" /></a> </li>
+    </ul>
+    <div class="clear"></div>
+</div>
+<div class="jbdh">
+    {dede:type typeid='52'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='53'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='54'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='55'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='56'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='57'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='58'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='59'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    {dede:type typeid='50'}<a href='[field:typeurl/]'>[field:typename/]</a>{/dede:type}
+    <div class="clear"></div>
+</div>
+<div class="jb_t">
+    <dl class="jb_2">
+        <dt>{dede:type typeid='100'}<a href="[field:typeurl/]" target="_blank">[field:typename/]</a>{/dede:type}</dt>
+        <dd><a href="/zixun/?f=doctor" rel="nofollow">在线咨询</a></dd>
+    </dl>
+    <ul>
+        <li><a href="/wenxinchanke/"><img src="{dede:global.cfg_templets_skin/}/images/banner2.jpg" alt="温馨产科" /></a> </li>
+    </ul>
+    <div class="clear"></div>
+</div>
+<div class="jbdh">
+	{dede:channel type='son' typeid='100'}  
+	<a href="[field:typeurl/]">[field:typename/]</a>
+    {/dede:channel}
+    <div class="clear"></div>
+</div>
+{dede:include filename='inc_footer.htm'/}
+</body>
+</html>

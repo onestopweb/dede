@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" />
+	<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+	<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+	<meta name="description" content="{dede:global.cfg_description/}" />
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/css.css" />
+</head>
+<body>
+{dede:include filename='header.htm'/}
+<div class="auto_t">
+    <div class="t1">{dede:field name='position'/}</div>
+</div>
+<div class="doctor">
+    {dede:list pagesize='5'}
+    <dl>
+        <dt>
+            <a href="[field:arcurl/]"><img src="[field:litpic/]" alt="[field:title/]" width="88" height="118" /></a>
+        </dt>
+        <dd>
+            <h2><a href="[field:arcurl/]">[field:title/]</a></h2>
+            <p>[field:description function='cn_substr(@me,100)'/]...</p>
+            <div>
+                <a href="[field:global.cfg_basehost/]/zixun/" rel="nofollow" target="_blank"><img src="[field:global.cfg_templets_skin/]/images/left_btn.gif" alt="咨询专家" /></a>
+                <a href="[field:global.cfg_basehost/]/zixun/" rel="nofollow" target="_blank"><img src="[field:global.cfg_templets_skin/]/images/right_btn.gif" alt="点击预约" /></a>
+            </div>
+        </dd>
+    </dl>
+    {/dede:list}
+</div>
+<div class="pagination">
+<ul>{dede:pagelist listitem="pre,next,pageno" listsize="1"/}</ul>
+</div>
+{dede:include filename='footer.htm'/}
+</body>
+</html>

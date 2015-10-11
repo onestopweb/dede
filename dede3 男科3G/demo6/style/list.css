@@ -1,0 +1,9 @@
+/* CSS Document */
+
+/*内容*/
+.bar{ background:#f6f6f6 url(../images/barBg.gif) no-repeat scroll; font-size:14px; width:306px; height:76px; margin:8px auto 0 auto; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; border: 1px solid #A3A3A7;}
+.bar dt{ padding-left:6px;}
+.bar dt a{color:#1676C2; line-height:28px; height:28px; overflow:hidden;}
+.bar dt em{ color:#0D09AF;}
+.bar dd{ color:#939598; line-height:20px; padding:0 5px;}
+.bar dd a{color:#F91A09;}
