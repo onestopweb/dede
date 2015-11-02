@@ -1,0 +1,10 @@
+		<!--热文推荐 begin-->
+        <div id="rdzt">
+            <div class="t"><a>热文推荐</a></div>
+            <ul>
+            	{dede:arclist orderby='click' limit='0,5' titlelen='40'}
+                <li><a href="[field:arcurl/]" target="_blank">[field:title/]</a></li>
+                {/dede:arclist}
+            </ul>
+        </div>
+        <!--热文推荐 end-->

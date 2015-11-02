@@ -1,0 +1,9 @@
+/* CSS Document */
+
+.ppt{ width:290px; height:272px; float:left; position:relative;}
+.ppt img{ width:290px; height:272px; overflow:hidden;}
+.pptNum{ position: absolute; height: 13px; line-height: 14px; bottom:12px; right: 10px; }
+.pptNum span{ font-size: 12px; font-weight: 400; color: #FFF; float: right; display: block; width: 24px; text-align: center; background: #000; border-left: solid 1px #FFF; cursor: pointer; }
+.pptNum .normal{ color: #FFF; background: #000; filter: Alpha(opacity=50); opacity: .5; }
+.pptNum .cur{ background: #ce0609; color: #FFF; }
+

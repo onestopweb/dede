@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/auto.css"/>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/newside.css"/>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/newother.css"/>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/ppt_ban.css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/mainmenu.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/scr_exp.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/marquee.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/ppt_ban.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/other.js"></script>
+</head>
+<body>
+{dede:include filename="inc_head.htm"/}
+<div id="dhbox">
+    <div class="dh">
+        <div class="dh_t">您现在的位置：{dede:field name='position'/}</div>
+    </div>
+</div>
+<div id="text"> 
+    <div id="onebox">
+        <div class="onebox-border">
+            <div id="onebox-c">
+                <div id="viewleft">
+                    <div class="list_t">{dede:field.typename/}</div>
+                    <div class="zj-list">
+                    	{dede:list pagesize='5'}
+                        <div class="zj">
+                            <div class="c">
+                                <div class="c1"> <img src="[field:litpic/]" border="0" alt="[field:title/]" width="100"  height="120"/> <a href="/zixun/" target="_blank" rel="nofollow">咨询</a><a href="/zixun/" target="_blank" rel="nofollow">预约</a> </div>
+                                <div class="c2">
+                                    <p> <b>[field:title/]</b> </p>
+                                    <p> <strong> 主任医师 </strong> <br />
+                                        <strong>简介：</strong>[field:description function="cn_substr(@me,280)"/]... <a href="[field:arcurl /]" target="_blank">【详细】</a> </p>
+                                </div>
+                                <div class="clear"> </div>
+                            </div>
+                        </div>
+                        {/dede:list}
+                    </div>
+                    <ul class='pagelist'>{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}</ul>
+            		{dede:include filename="inc_prompt.htm"/}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="nside">
+        {dede:include filename="inc_fknav.htm"/}
+        {dede:include filename="inc_pass.htm"/}
+        {dede:include filename="inc_doctor.htm"/}
+        {dede:include filename="inc_item.htm"/}
+		{dede:include filename="inc_hotart.htm"/}
+    </div>  
+    <div class="clear"> </div>
+</div>
+{dede:include filename="inc_footer.htm"/}
+</body>
+</html>

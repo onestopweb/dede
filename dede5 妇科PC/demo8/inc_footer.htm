@@ -1,0 +1,107 @@
+<!--底部 begin-->
+<div class="allbottom"> 
+    <div id="fczt">
+        <div class="t">热点专题</div>
+        <div class="c">
+            <ul>
+            	{dede:channelartlist typeid='113,14,116,115,135,102,112,47,51,52,55,56,33,34,35,36,37,38'}
+                <li><a href="{dede:field name='typeurl'/}" target="_blank">{dede:field name='typename'/}</a></li>
+                {/dede:channelartlist}
+                {dede:channelartlist typeid='121,118,120,119,123,29,109,122,28,41,42,43,45,40'}
+                <li><a href="{dede:field name='typeurl'/}" target="_blank">{dede:field name='typename'/}</a></li>
+                {/dede:channelartlist}
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div id="map1">
+        <ul class="alist">
+            <li class="two">
+                <h4>医院概况</h4>
+                <ul>
+                	{dede:channel typeid='1' type='son'}
+                    <li><a href="[field:typelink /]" target="_blank">[field:typename /]</a></li>
+                    {/dede:channel}
+                </ul>
+            </li>
+            <li class="thr">
+                <h4>栏目导航</h4>
+                <ul>
+                    <li><a href="/" target="_blank">医院首页</a></li>
+                    <li>{dede:type typeid='1'}<a href="[field:typelink /]" target="_blank">医院概况</a>{/dede:type}</li>
+                    <li>{dede:type typeid='2'}<a href="[field:typelink /]" target="_blank">恒生新闻</a>{/dede:type}</li>
+                    <li>{dede:type typeid='46'}<a href="[field:typelink /]" target="_blank">恒生妇科</a>{/dede:type}</li>
+                    <li>{dede:type typeid='5'}<a href="[field:typelink /]" target="_blank">专家团队</a>{/dede:type}</li>
+                    <li>{dede:type typeid='7'}<a href="[field:typelink /]" target="_blank">权威技术</a>{/dede:type}</li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">专家答疑</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">预约挂号</a></li>
+                    <li>{dede:type typeid='111'}<a href="[field:typelink /]" target="_blank">来院路线</a>{/dede:type}</li>
+                </ul>
+            </li>
+            <li class="one">
+                <h4>经典项目</h4>
+                <ul>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">热门经典项目</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">妇科经典项目</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">检查经典项目</a></li>
+                </ul>
+            </li>
+            <li class="two">
+                <h4> 患者服务</h4>
+                <ul>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">就医指南</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">专家答疑</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">网上挂号</a></li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">在线咨询</a></li>
+                    <li>{dede:type typeid='111'}<a href="[field:typelink /]" target="_blank">来院路线</a>{/dede:type}</li>
+                    <li><a href="/zixun/" target="_blank" rel="nofollow">院务信箱</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <div id="link"> 
+        <div class="menu">
+            <ul>
+                <li id="two1" onmouseover="setTab('two',1,2)" class="hover">相关单位</li>
+                <li id="two2" onmouseover="setTab('two',2,2)">友情链接</li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+        <div class="c">
+            <div id="con_two_1" class="hover"> <img src="{dede:global.cfg_templets_skin/}/images/img_39.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_40.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_41.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_42.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_43.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_44.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_45.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_46.jpg" alt="" /> <img src="{dede:global.cfg_templets_skin/}/images/img_47.jpg" alt="" /> </div>
+            <div id="con_two_2" style="display: none">
+                <div class="c1"> 
+                  	<a href="http://www.dgxdfk.com/" target="_blank">恒生医院妇科中心</a>
+                	<a href="http://www.dls120.com/" target="_blank">恒生医院男科中心</a>
+                	<a href="http://www.qdnklrl.com/" target="_blank">恒生医院人流中心</a>
+                	<a href="http://klck.qdnhsyy.com/" target="_blank">恒生医院产科中心</a>
+                	<a href="http://www.lnlryy.com/" target="_blank">恒生医院不孕不育</a>
+                	<a href="http://www.qdnyy120.com/" target="_blank">恒生医院肛肠外科</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <div id="footer">
+        <div class="lk">
+        	<a href="/">医院首页</a>|
+            {dede:type typeid='1'}<a href="[field:typelink /]">医院概况</a>{/dede:type}|
+            {dede:type typeid='2'}<a href="[field:typelink /]">恒生新闻</a>{/dede:type}|
+            {dede:type typeid='46'}<a href="[field:typelink /]" target="_blank">恒生妇科</a>{/dede:type}|
+            {dede:type typeid='5'}<a href="[field:typelink /]">专家团队</a>{/dede:type}|
+            {dede:type typeid='7'}<a href="[field:typelink /]">权威技术</a>{/dede:type}|
+            <a href="/zixun/" target="_blank" rel="nofollow">专家答疑</a>|
+            <a href="/zixun/" target="_blank" rel="nofollow">预约挂号</a>|
+            {dede:type typeid='111'}<a href="[field:typelink /]">来院路线</a>{/dede:type}
+        </div>
+        医院地址：凯里市韶山北路27号（凯里市小十字隧道口，原州医院分院）<br />
+        医院电话：<strong>0855-8253310</strong>　QQ咨询：1141205533　医院网址：<a href="http://www.dgxdfk.com">http://www.dgxdfk.com</a><br />
+        黔东南恒生医院版权所有 2014 本站所有内容，未经许可，均不得转载。<br />
+        特别声明：本网站内容大多来自我院临床，但是因存在个体差异，不能作为诊断和治疗的依据，仅供医生和各病友交流与借鉴。<br />
+    </div>
+</div>
+<!--底部 end-->
+
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tab1.js"></script>
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/tanchu.js"></script>
+<script type="text/javascript" src="/zixun/swt.js"></script>

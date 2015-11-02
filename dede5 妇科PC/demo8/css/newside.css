@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* new side */
+#nside{ float:right; width:270px; color:#4b4b4b}
+#nside .t{ height:31px; border-bottom:1px solid #c1bebe; background:url(../images/npage_04.jpg) no-repeat; padding:0 0 0 35px; font:bold 14px/31px Arial, Helvetica, sans-serif}
+#nside a{ color:#444}
+#nside .m{ float:right; width:44px; height:17px; padding:1px 0 0 0 ; text-align:center; margin:5px 10px 0 0; _display:inline;background:url(../images/npage_21.gif);  font:normal 12px/17px Arial, Helvetica, sans-serif}
+
+#jbdh{ height:46px;line-height:25px;}
+#jbdh ul{margin:0;padding: 0;list-style-type: none;color: #982076;/* Width of Menu Items */}	
+#jbdh ul li{position: relative;}
+/*1st level sub menu style */
+#jbdh ul li ul{width: 134px;  margin-top:30px;left:0; /* Parent menu width - 1*/position: absolute;/*sub menu width*/top: 0;display: none;border-top:1px solid #ccc;border-left:1px solid #eacbe2;}
+/*All subsequent sub menu levels offset */
+#jbdh ul li ul li ul{margin-top:-1px; left: 134px; /* Parent menu width - 1*/}
+/* menu links style */
+#jbdh ul li ul li a{display: block; width:134px;background: url(../images/d1x.gif) 3px 8px no-repeat #f3e4ef;text-indent: 25px;height: 30px;border-bottom: 1px solid #eacbe2;line-height: 30px;text-decoration: none;color: #982076; font-size:12px}
+#jbdh ul li ul li ul li a{width:134px;}
+#jbdh ul li ul li.has a{display: block; width:134px;background: url(../images/d1x1.gif) 3px 8px no-repeat #f3e4ef;text-indent: 25px;height: 30px;border-bottom: 1px solid #eacbe2;line-height: 30px;text-decoration: none;color: #982076;}
+#jbdh ul li.suojin a{display: block; width:134px;background: url(../images/d1x.gif) 13px 8px no-repeat #f3e4ef;text-indent: 35px;height: 30px;border-bottom: 1px solid #eacbe2;line-height: 30px;text-decoration: none;color: #982076;font-size:12px}
+
+
+#jbdh ul li ul li a:visited{color: black;}
+#jbdh ul li ul li a:hover{background: url(../images/bg_mu1.gif) repeat-x #982076;color:#FFF;}
+#jbdh ul li.has a:hover{background: url(../images/bg_mu11.gif)  repeat-x #982076;color:#FFF;}
+#jbdh ul li.suojin a:hover{background: url(../images/bg_mu1.gif) repeat-x 10px 0 #982076; text-indent: 35px;color:#FFF;}
+#jbdh .subfolderstyle{}/*tanchu yangshi*/
+	
+/* Holly Hack for IE \*/
+* html #jbdh  ul li { float:left; height: 1%;}
+* html #jbdh  ul li a { height: 1%;}
+/* End */
+
+#bmtd{ width:266px; padding:1px; margin:2px 0 0 0;border:1px solid #c1bebe;}
+#bmtd  img{ display:block}
+#bmtd .c1 { margin:3px 0 0 0; padding:0 0 10px 0;}
+#bmtd .c1 img{ float:left; margin:7px 0 0 9px; _display:inline}
+#bmtd img{ display:block}
+
+#czzj { padding:1px; margin:10px 0 0 0; width:266px;border:1px solid #c1bebe;}
+/*#czzj .t{ background:url(../images/npage_20.jpg); color:#fff}
+#czzj .t a{ color:#fff}
+#czzj .t .m a{ color:#444}*/
+#czzj .t{margin-bottom:5px;}
+#czzj .top{ margin:6px 0 0 0; background:url(../images/npage_22.jpg)}
+#czzj .top span{ margin:0 8px 0 2px}
+#czzj .tonggao{ margin:2px 0 0 0; float:left}
+#czzj .tgpic { float:left;  background:url(../images/npage_22.jpg); padding:2px; width:50px; height:18px;}
+#czzj .tgtext,#czzj .tgtext1{ float:right; width:212px; height:22px; overflow:hidden;background:#fbe7f5;}
+
+#czzj .c1{ float:left; width:113px; padding:8px 0 0 5px}
+#czzj .c1 .pic{ border:1px solid #ddd; padding:2px;}
+#czzj .c10{ padding:0 5px 0 0; text-align:center}
+#czzj .c11 { width:112px;}
+#czzj .c11 a{ float:left;_display:inline; width:48px; height:16px; margin:0 6px 10px 0; border:1px solid #489225; background:url(../images/list_14.jpg); text-align:center; line-height:16px; color:#fff; }
+.gunbox .pcont {FLOAT: left; OVERFLOW: hidden; WIDTH: 235px; _display:inline}
+		.gunbox .ScrCont {WIDTH: 32766px; ZOOM: 1}
+#czzj #List1_1, #czzj #List1_2 {FLOAT: left}
+		#czzj #List2_1,#czzj #List2_2 {FLOAT: left}
+	#czzj  .LeftBotton {BACKGROUND: url(../images/npage_24.jpg) 0 50px no-repeat; FLOAT: left; MARGIN: 20px 1px; WIDTH: 12px; HEIGHT: 120px}
+	#czzj  .RightBotton {BACKGROUND: url(../images/npage_25.jpg) 0 50px no-repeat; FLOAT: left; MARGIN: 20px 1px; WIDTH: 12px; HEIGHT: 120px	}
+
+#ask { padding:1px; margin:10px 0 0 0;border:1px solid #c1bebe;}
+#ask .c1{ padding:0 10px; line-height:18px;}
+#ask .c1 p{ padding:10px 0 5px}
+#ask .c1 strong{ font:normal 14px/18px Arial, Helvetica, sans-serif; color:#df2cad}
+#ask ul{ padding:0 6px 5px}
+#ask li{text-indent:18px; background:url(../images/bg_list2.jpg) 3px 9px no-repeat; border-bottom:1px dashed #ddd; line-height:24px}
+#ask .c2 { padding:6px 0; border-top:1px solid #ccc; background:#ededed}
+#ask .c2 img{ margin:0 0 0 20px}
+
+.jdl{ width:269px; height:255px; margin:12px 0 0 0; overflow:hidden;}
+
+/*------------tyside----------------*/
+#tyside{ float:left; width:270px; color:#4b4b4b; margin:0 10px 0 0; display:inline;}
+#tyside .t{ height:31px; border-bottom:1px solid #c1bebe; background:url(../images/npage_04.jpg); padding:0 0 0 35px; font:bold 14px/31px Arial, Helvetica, sans-serif}
+#tyside a{ color:#444}
+#tyside .m{ float:right; width:44px; height:18px; text-align:center; margin:5px 10px 0 0; _display:inline;background:url(../images/npage_21.gif);  font:normal 12px/18px Arial, Helvetica, sans-serif}
+#tynav{ width:270px; margin:0 0 10px 0 }
+#tynav .ty1{ height:45px; width:270px; background:url(../images/tyimg_03.jpg) no-repeat; text-align:center; font-size:14px; color:#FFF; padding-top:5px; font-weight:bold;}
+#tynav .ty2{ width:220px; background:url(../images/tyimg_04.jpg) repeat-y; padding:0 25px;}
+#tynav .ty2 ul li{ display:block; background:url(../images/tyimg_02.jpg) 10px 12px no-repeat; border-bottom:1px solid #CCC; padding:5px 0 5px 28px; font-size:14px; }
+
+#tynav .ty3{ height:15px; width:270px; background:url(../images/tyimg_01.jpg) no-repeat;}
+
+
+
+#rdzt{width:270px; margin:8px 0 0 0; background: url(../images/npage_29.jpg) bottom repeat-x #fcfcfc}
+#rdzt .t{ padding:0;width:270px;height:50px; border:none; background: url(../images/side_t03.jpg); font:normal 14px/23px Arial, Helvetica, sans-serif;}
+#rdzt .t a{ display:block; height:50px; overflow:hidden; text-indent:-10000px;color:#ff409a}
+#rdzt ul{ padding:0 10px 10px; border:1px solid #ddd; border-top:0; font:normal 14px/24px Arial, Helvetica, sans-serif}
+#rdzt li{text-indent:18px; background:url(../images/bg_list2.jpg) 3px 9px no-repeat;}
+
+
+
+
+
+
+
+
